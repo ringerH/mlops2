@@ -1,4 +1,4 @@
-from ml-ops.preprocessing.pipeline import create_preprocessing_pipeline
+from mlops2.preprocessing.pipeline import create_preprocessing_pipeline
 
 def test_pipeline_runs(sample_df):
     pipe   = create_preprocessing_pipeline()

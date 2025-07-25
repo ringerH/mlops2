@@ -2,8 +2,8 @@ from pathlib import Path
 import pandas as pd
 import tempfile
 
-from ml-ops.data.loader import DataLoader
-from ml-ops.config.settings import DATA_CONFIG
+from mlops2.data.loader import DataLoader
+from mlops2.config.settings import DATA_CONFIG
 
 def test_csv_loading(tmp_path):
     # create temp CSV

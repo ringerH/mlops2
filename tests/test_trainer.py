@@ -1,4 +1,4 @@
-from ml-ops.models.trainer import ModelTrainer
+from mlops2.models.trainer import ModelTrainer
 
 def test_trainer_end_to_end(sample_df):
     trained, reports = ModelTrainer().train(sample_df)
