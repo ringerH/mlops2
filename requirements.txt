@@ -1,0 +1,13 @@
+# ===== requirements.txt =====
+# Core runtime libraries
+pandas
+numpy
+scikit-learn
+spacy
+emoji
+
+# Optional experiment-tracking (uncomment if you plan to use MLflow)
+mlflow
+
+pytest
+pytest-cov
